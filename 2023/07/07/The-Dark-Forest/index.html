@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="IntroductionAfter learning JavaScript, CSS and HTML in year 1, I completed my first web-based game project whose name is The Dark Forest. This game is done by me and ChatGPT together. READMEThe Dark F">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Dark Forest">
+<meta property="og:url" content="http://example.com/2023/07/07/The-Dark-Forest/index.html">
+<meta property="og:site_name" content="Hello, Welcome to Hal&#39;s World">
+<meta property="og:description" content="IntroductionAfter learning JavaScript, CSS and HTML in year 1, I completed my first web-based game project whose name is The Dark Forest. This game is done by me and ChatGPT together. READMEThe Dark F">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-07-07T01:17:41.000Z">
+<meta property="article:modified_time" content="2023-07-07T01:45:31.155Z">
+<meta property="article:author" content="Hal Feng">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://example.com/2023/07/07/The-Dark-Forest/"/>
+
+
+
+
+
+  <title>The Dark Forest | Hello, Welcome to Hal's World</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hello, Welcome to Hal's World</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Live with no regrets</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/07/The-Dark-Forest/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hello, Welcome to Hal's World">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">The Dark Forest</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2023-07-07T09:17:41+08:00">
+                2023-07-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>After learning JavaScript, CSS and HTML in year 1, I completed my first web-based game project whose name is The Dark Forest. This game is done by me and ChatGPT together.</p>
+<h1 id="README"><a href="#README" class="headerlink" title="README"></a>README</h1><h2 id="The-Dark-Forest-Theory"><a href="#The-Dark-Forest-Theory" class="headerlink" title="The Dark Forest Theory"></a>The Dark Forest Theory</h2><p>The dark forest hypothesis is the conjecture that many alien civilizations exist throughout the universe, but they are both silent and paranoid. In this framing, it is presumed that any space-faring civilization would view any other intelligent life as an inevitable threat, and thus destroy any nascent life that makes its presence known. As a result, the electromagnetic spectrum would be relatively quiescent, without evidence of any intelligent alien life, as in a “dark forest” filled with “armed hunter stalking through the trees like a ghost”.</p>
+<p>In simple words, which means all civilizations in the universe exist in hostile relationships with each other, because they can’t be sure if the other one is a well-meaning civilization. So attack is the best way to protect themselves.</p>
+<h2 id="Game-Instruction"><a href="#Game-Instruction" class="headerlink" title="Game Instruction"></a>Game Instruction</h2><p>In the far reaches of the cosmos, a formidable threat has emerged. Lizard people from Kepler-186f, an Earth-like planet located 500 light years away, have discovered our home planet. Armed with the Dark Forest Theory, they have unleashed an unparalleled wave of devastation upon Earth.</p>
+<p>In these desperate times, you step up to the challenge. As a distinguished pilot of the Rebel Alliance, renowned for your exemplary flying skills, you find yourself at the vanguard of Starfleet. Commanding the highly maneuverable starship - “The Peregrine Falcon,” <strong>controlled by the WSAD keys</strong>, your mission is to protect our mother planet by eliminating the villainous alien spaceships swarming from the vast expanse of the universe.</p>
+<p>Fortunately, the Earth isn’t defenseless. A brilliant consortium of our planet’s design engineers have sparked an era of rapid technological evolution. Every ten years - equivalent to 30 seconds in player time - Earth’s technology level escalates by one. These innovative minds tirelessly collaborate to conceive faster, stronger, and more advanced spaceships to counter the hostile forces.</p>
+<p>Witness the transformation of your ship, “The Peregrine Falcon.” It receives its first upgrade at technology level 4, culminating in its final, formidable form at level 9. <strong>With each upgrade, the number of bullets fired increases</strong>, amplifying your offensive capability.</p>
+<p>So, gear up, pilot! Immerse yourself in the thrill of combat and protect our mother planet. The survival of Earth rests in your hands!</p>
+<h3 id="The-number-and-the-speed-of-the-villain-spaceship-will-increase-as-the-technology-level-increases-Try-to-break-your-limitation-and-get-a-higher-score-Pilot"><a href="#The-number-and-the-speed-of-the-villain-spaceship-will-increase-as-the-technology-level-increases-Try-to-break-your-limitation-and-get-a-higher-score-Pilot" class="headerlink" title="The number and the speed of the villain spaceship will increase as the technology level increases! Try to break your limitation and get a higher score, Pilot."></a>The number and the speed of the villain spaceship will increase as the technology level increases! Try to break your limitation and get a higher score, Pilot.</h3><hr>
+<h1 id="Key-Coding"><a href="#Key-Coding" class="headerlink" title="Key Coding"></a>Key Coding</h1><p>The main game program is separated into 3 documents, one is <strong>default.css</strong>, which can be said as   <em>Decoration</em> of the website, <strong>index.html</strong> is charge for the style and appearance of the website and main.js is a JavaScript document which includes all the user interaction parts.</p>
+<h3 id="default-css"><a href="#default-css" class="headerlink" title="default.css"></a>default.css</h3><p><code>/*CSS defines the appearance of the web app*/</code></p>
+<p><code>/* import a new font*/</code><br><code>@import url(&#39;https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap&#39;);</code><br>        <figure class="highlight plaintext"><figcaption><span>&#123;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">    background-color: black;</span><br><span class="line">    display: flex;</span><br><span class="line">    justify-content: center;</span><br><span class="line">    align-items: center;</span><br><span class="line">    height: 100vh;</span><br><span class="line">    margin: 0;</span><br><span class="line">    font-family: &#x27;Press Start 2P&#x27;, cursive;</span><br><span class="line">    overflow: hidden;</span><br><span class="line">&#125;</span><br><span class="line">#startButton, #retryButton, #gamdumButton &#123;</span><br><span class="line">    transition: background-color 0.3s ease; </span><br><span class="line">    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);</span><br><span class="line">&#125;`</span><br></pre></td></tr></table></figure></p>
+<pre><code>    #startButton:hover, #retryButton:hover, #gamdumButton:hover &#123;
+        background-color: #808080;
+    &#125;
+    #splashScreen &#123;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background: url(&#39;assets/universe.gif&#39;);
+        background-size: cover;
+    &#125;
+    #title &#123;
+        font-size: 4em;
+        margin-top: 20%;
+        color: white;
+    &#125;
+    #startButton &#123;
+        display: block;
+        width: 300px;
+        height: 80px;
+        margin: 40px auto;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        border: none;
+        font-size: 1em;
+        cursor: pointer;
+        font-family: &#39;Press Start 2P&#39;, cursive;
+    &#125;
+        #scoreContainer&#123;
+            position:fixed;
+            top: 76%;
+            left: 70%;
+            display: flex;
+            justify-content: center; /* center children horizontally */
+            align-items: center;     /* center children vertically */
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            border: none;
+            font-size: 1.45em;
+            cursor: pointer;
+            font-family: &#39;Press Start 2P&#39;, cursive;
+        &#125;
+        
+    #gameContainer &#123;
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+    &#125;
+    #gameArea &#123;
+        position: relative;
+        width: 50vw;
+        height: 100vh;
+        border: 1px solid white;
+    &#125;
+    #earth &#123;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        width: 70px;
+        height: 70px;
+        transform: translate(-50%, -50%);
+    &#125;
+    #infoPanel, #weaponBoard &#123;
+        width: 25vw;
+        height: 50vh;
+        color: white;
+        padding: 20px;
+        border: 1px solid white;
+    &#125;
+    #tipBoard&#123;
+        position:fixed;
+        top: 64%;
+        left: 75%;
+        width: 650px;
+        color: white;
+        transform: translate(-60%, -50%);
+    &#125; 
+    #shield &#123;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid #00ff00;
+    &#125;
+    #AI&#123;
+        position: absolute;
+        top: 77%;
+        left: 55%;
+        width: 200px;
+        height: 180px;
+        transform: translate(-50%, -50%);
+    &#125;
+    #weapon &#123;
+        max-width: 90%;
+        max-height: 70%;
+    &#125;
+    .bullet &#123;
+        position: absolute;
+        width: 2px;
+        height: 10px;
+        background-color: white;
+    &#125;
+    .villain &#123;
+position: absolute;
+width: 30px;
+height: 30px;
+background-image: url(&quot;assets/villain.png&quot;);
+background-size: cover;
+</code></pre>
+<p><code>&#125;</code><br>        <code>h2 &#123;</code><br>            <code>font-size: 1.5em;         &#125;         p &#123;             font-size: 1em;         &#125;</code></p>
+<pre><code>    #gameOverScreen &#123;
+        display: none;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background: url(&#39;assets/universe.gif&#39;);
+        background-size: cover;
+    &#125;
+    #gameOverTitle &#123;
+        font-size: 4em;
+        margin-top: 20%;
+        color: white;
+    &#125;
+    #retryButton &#123;
+        display: block;
+        width: 300px;
+        height: 80px;
+        margin: 40px auto;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        border: none;
+        font-size: 1em;
+        cursor: pointer;
+        font-family: &#39;Press Start 2P&#39;, cursive;
+    &#125;
+</code></pre>
+<h3 id="index-html"><a href="#index-html" class="headerlink" title="index.html"></a>index.html</h3><figure class="highlight plaintext"><figcaption><span>In HTML Comments are written like this --></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- They can all be removed for your apps --&gt;</span><br><span class="line">&lt;!doctype html&gt; &lt;!-- This first line tells browsers to expect modern standard html 5 --&gt;</span><br><span class="line">&lt;html lang=&quot;en-gb&quot;&gt; &lt;!-- This is indicates the page is written in British English, useful for accessibility --&gt;</span><br><span class="line">&lt;meta charset=&quot;utf-8&quot;&gt; &lt;!-- This indicates how the file is encoded. utf-8 is standard --&gt;</span><br><span class="line">&lt;title&gt;Your Web-app Title&lt;/title&gt; &lt;!-- All pages need a title, this will be displayed in the browser&#x27;s title bar --&gt;</span><br><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;default.css&quot;&gt; &lt;!-- Import style sheet – default.css --&gt;</span><br><span class="line">&lt;link rel=&quot;icon&quot; href=&quot;./assets/favicon.png&quot;&gt; &lt;!-- Import &#x27;Favorites Icon&#x27; – favicon.png --&gt;</span><br><span class="line">&lt;script type=&quot;module&quot; src=&quot;main.js&quot;&gt;&lt;/script&gt; &lt;!-- Load the main script. Must be type=&quot;module&quot;. Have only one of these --&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;!--HTML defines the structure of the web app--&gt;</span><br><span class="line"></span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;default.css&quot;&gt;  </span><br><span class="line">    &lt;!--link html to the css document to cite the appearance of the web app--&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line"></span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div id=&quot;splashScreen&quot;&gt;    &lt;!--The game starting screen--&gt;</span><br><span class="line">        &lt;div id=&quot;title&quot;&gt;The Dark Forest&lt;/div&gt;</span><br><span class="line">        &lt;button id=&quot;startButton&quot;&gt;Start&lt;/button&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"> &lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">    &lt;div id=&quot;gameContainer&quot;&gt;   &lt;!--The user will play the game inside the game container--&gt;</span><br><span class="line">        &lt;div id=&quot;gameArea&quot;&gt;</span><br><span class="line">             &lt;!--Because of some mysterious reasons, the bullet trajectory is not accurate at the very beginning--&gt;</span><br><span class="line">            &lt;p id=&quot;calibrationText&quot; style=&quot;display: none; color: white; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);&quot;&gt;Please calibrate your trajectory by moving the spaceship&lt;/p&gt;</span><br><span class="line">            &lt;div id=&quot;shield&quot;&gt;&lt;/div&gt;   &lt;!--Make the earth looks cooler--&gt;</span><br><span class="line">            &lt;img id=&quot;earth&quot; src=&quot;assets\Spinning Earth.gif&quot; alt=&quot;Spinning Earth&quot;&gt;</span><br><span class="line">            &lt;img id=&quot;weaponInGame&quot; src=&quot;assets\spaceship_lv1.png&quot; style=&quot;position: absolute; top: 90%; left: 45%;&quot; width=&quot;50px&quot; height=&quot;50px&quot;&gt;</span><br><span class="line">            &lt;div id=&quot;healthBar&quot; style=&quot;width: 100%; height: 5px; background: rgb(29, 195, 29); position: absolute; bottom: 50px;&quot;&gt;&lt;/div&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">        &lt;!--Information Panel displays some important information to the player--&gt;</span><br><span class="line">        &lt;div id=&quot;infoPanel&quot;&gt;</span><br><span class="line">            &lt;h2&gt;Earth Status&lt;/h2&gt;</span><br><span class="line">            &lt;p id=&quot;health&quot;&gt;Health:100%&lt;/p&gt;</span><br><span class="line">            &lt;h2&gt;Technology Level&lt;/h2&gt;</span><br><span class="line">            &lt;p id=&quot;techLevel&quot;&gt;Level: 1&lt;/p&gt;</span><br><span class="line">            &lt;h2&gt;Time&lt;/h2&gt;</span><br><span class="line">            &lt;p id=&quot;time&quot;&gt;Year: 2023&lt;/p&gt;</span><br><span class="line">            &lt;h2&gt;Timer&lt;/h2&gt;</span><br><span class="line">            &lt;p id=&quot;timer&quot;&gt;00:00&lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">        &lt;div id=&quot;weaponBoard&quot;&gt;</span><br><span class="line">            &lt;h2&gt;Current Weapon&lt;/h2&gt;</span><br><span class="line">            &lt;img id=&quot;weapon&quot; src=&quot;assets\spaceship_lv1.png&quot;&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">        &lt;div id=&quot;tipBoard&quot;&gt;</span><br><span class="line">            &lt;h2&gt; Control The Peregrine Falcon and destroy as many enermies as you can!&lt;/h2&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">        &lt;div id=&quot;AI&quot;&gt;</span><br><span class="line">            &lt;img id=&quot;AI&quot; src=&quot;assets\HAL-9000 Running.gif&quot; alt=&quot;AI&quot;&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">        &lt;div id=&quot;scoreContainer&quot;&gt;</span><br><span class="line">            &lt;p id=&quot;score&quot;&gt;0&lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">&lt;!--        &lt;div id=&quot;gamdumButton&quot;&gt;</span><br><span class="line">            &lt;button id=&quot;gamdumButton&quot;&gt;ガンダムで出撃する!!!&lt;/button&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">--&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">    &lt;div id=&quot;gameOverScreen&quot;&gt;</span><br><span class="line">        &lt;div id=&quot;gameOverTitle&quot;&gt;Game Over&lt;/div&gt;</span><br><span class="line">        &lt;button id=&quot;retryButton&quot;&gt;Retry&lt;/button&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;!----------------------------------------------------------------------------------------------------&gt;</span><br><span class="line">    &lt;!--link JavaScript doc to this doc to make sure the user interavtion of the game--&gt;</span><br><span class="line">    &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="main-js"><a href="#main-js" class="headerlink" title="main.js"></a>main.js</h3><p>&#x2F;&#x2F;—————————————————————————————————–<br>&#x2F;&#x2F;JavaScript defines the user interaction of the web app<br>&#x2F;&#x2F;—————————————————————————————————–</p>
+<p>&#x2F;&#x2F;——————————————————————————————————<br>&#x2F;&#x2F;Core mechanism of the game<br>&#x2F;&#x2F;Set the initial values of the variables<br>let techLevel &#x3D; 1;<br>let time &#x3D; 2023;<br>let timer &#x3D; 0;<br>let health &#x3D; 100;<br>let weaponInGame &#x3D; document.getElementById(“weaponInGame”);<br>let bulletInterval;<br>let spawnVillainInterval, moveVillainsInterval, checkCollisionInterval;<br>let gamdumTimeout;<br>let score &#x3D;0;<br>let villainSpeed &#x3D;1;<br>&#x2F;&#x2F;let gamdumActive &#x3D; false;  &#x2F;&#x2F; gamdum status is set as false at the very beginning</p>
+<p>&#x2F;&#x2F;—————————————————————————————————–<br>    &#x2F;&#x2F; Spawn a new villain every 10 seconds<br>    setInterval(spawnVillain, 1000);</p>
+<pre><code>// Move villains every 50ms
+setInterval(moveVillains, 50);
+
+//check bullet collision every 50ms
+setInterval(checkCollision, 50);
+</code></pre>
+<p>&#x2F;&#x2F;Set a function to generate villain spaceship<br>function spawnVillain() {<br>    &#x2F;&#x2F; Spawn villains according to the techLevel<br>    for(let j &#x3D; 0; j &lt;&#x3D; Math.floor(techLevel &#x2F; 2); j++){<br>        let villain &#x3D; document.createElement(‘div’);<br>        villain.className &#x3D; ‘villain’;<br>        &#x2F;&#x2F; Randomly position the villain along the x-axis at the top of the game area<br>        villain.style.left &#x3D; Math.random() * (gameArea.offsetWidth - villain.offsetWidth) + ‘px’;<br>        villain.style.top &#x3D; ‘0px’;<br>        gameArea.appendChild(villain);<br>    }<br>    &#x2F;* Don’t spawn villains when gamdum is active<br>    if (!gamdumActive) {<br>        let villain &#x3D; document.createElement(‘div’);<br>        villain.className &#x3D; ‘villain’;<br>       villain.style.left &#x3D; Math.random() * (gameArea.offsetWidth - villain.offsetWidth) + ‘px’;<br>        villain.style.top &#x3D; ‘0px’;<br>        gameArea.appendChild(villain);<br>    }*&#x2F;<br>}</p>
+<p>&#x2F;&#x2F;Set a function to move the villain spaceships move downward the game area<br>function moveVillains() {<br>    let villains &#x3D; document.getElementsByClassName(‘villain’); &#x2F;&#x2F;call back to the class I defined previously<br>    for (let i &#x3D; 0; i &lt; villains.length; i++) {<br>        let villain &#x3D; villains[i];<br>        villain.style.top &#x3D; (parseInt(villain.style.top) + 1) + ‘px’;<br>&#x2F;*<br>        &#x2F;&#x2F; Don’t move villains when gamdum is active<br>    if (!gamdumActive) {<br>        let villains &#x3D; document.getElementsByClassName(‘villain’);<br>        for (let i &#x3D; 0; i &lt; villains.length; i++) {<br>            let villain &#x3D; villains[i];<br>            villain.style.top &#x3D; (parseInt(villain.style.top) + 1) + ‘px’;*&#x2F;</p>
+<pre><code>        if (window.innerHeight - villain.getBoundingClientRect().bottom &lt;= 50) &#123;
+            health--;
+            villain.remove();
+        &#125;
+//    &#125;
+//&#125;
+
+    // Check if the villain is within or below the 50px from the bottom of the screen
+    if (window.innerHeight - villain.getBoundingClientRect().bottom &lt;= 50) &#123;
+        //If the villain reach a distance only 50 pixel between the villain and the bottom of the screen
+        health--; // The health value of the earth will decrease by 1
+
+        // Remove the villain from the game area
+        villain.remove();
+    &#125;
+&#125;
+</code></pre>
+<p>function updateHealthDisplay() {<br>        &#x2F;&#x2F; Update the health displayed in HTML and show them on the info panel<br>        document.getElementById(‘health’).textContent &#x3D; “Health: “ + health + “%”;<br>    }</p>
+<pre><code>// Call the health update function once per loop
+updateHealthDisplay();
+// Check if health has reached 0
+if (health &lt;= 0) &#123;
+    // Stop the game
+    clearInterval(spawnVillainInterval);
+    clearInterval(moveVillainsInterval);
+    clearInterval(checkCollisionInterval);
+
+    // Display game over screen
+    document.getElementById(&#39;gameOverScreen&#39;).style.display = &#39;block&#39;;
+
+&#125;
+</code></pre>
+<p>}<br>&#x2F;&#x2F;—————————————————————————————————–</p>
+<p>&#x2F;&#x2F;—————————————————————————————————–<br>&#x2F;&#x2F;Key button interaction of the game<br>document.getElementById(“startButton”).onclick &#x3D; function() {       &#x2F;&#x2F;When the “startbutton” is clicked<br>    document.getElementById(“splashScreen”).style.display &#x3D; “none”; &#x2F;&#x2F;Hide the game starting page<br>    document.getElementById(“gameContainer”).style.display &#x3D; “flex”;<br>    document.getElementById(“calibrationText”).style.display &#x3D; “block”;</p>
+<pre><code>setTimeout(function() &#123;
+    document.getElementById(&quot;calibrationText&quot;).style.display = &quot;none&quot;;
+&#125;, 5000);   // The text will disappear after 5s
+startGame();// Call function startGame
+</code></pre>
+<p>};</p>
+<p>&#x2F;&#x2F;If user click on the retry button on game over page, the game will restart<br>document.getElementById(“retryButton”).onclick &#x3D; function() {<br>    location.reload();<br>};</p>
+<p>&#x2F;&#x2F;—————————————————————————————————–</p>
+<p>&#x2F;*<br>&#x2F;&#x2F;—————————————————————————————————–<br>&#x2F;&#x2F;Gamdum!!!<br>&#x2F;&#x2F; Add event listener to gamdumButton<br>document.getElementById(“gamdumButton”).onclick &#x3D; function() {<br>    spawnGamdum();<br>};</p>
+<p>function spawnGamdum() {<br>    &#x2F;&#x2F; show gundam<br>    let gamdum &#x3D; document.createElement(‘img’);<br>    gamdum.src &#x3D; “assets&#x2F;gamdum.gif”;<br>    gamdum.style.width &#x3D; “100%”;<br>    gamdum.style.height &#x3D; “100%”;<br>    gamdum.style.position &#x3D; “absolute”;<br>    gamdum.style.top &#x3D; “0”;<br>    gamdum.style.left &#x3D; “0”;<br>    gamdum.id &#x3D; “gamdum”;<br>    gameArea.appendChild(gamdum);</p>
+<pre><code>// set gamdumActive to true
+gamdumActive = true;
+
+// destroy all villains immediately
+let villains = document.getElementsByClassName(&#39;villain&#39;);
+while(villains[0]) &#123;
+    villains[0].parentNode.removeChild(villains[0]);
+&#125;
+
+// hide gundam after 3 seconds and enable spawning and moving villains
+gamdumTimeout = setTimeout(function() &#123;
+    gamdum.parentNode.removeChild(gamdum);
+    gamdumActive = false;
+&#125;, 3000);
+</code></pre>
+<p>}<br>&#x2F;&#x2F;—————————————————————————————————–<br>*&#x2F;</p>
+<p>&#x2F;&#x2F;—————————————————————————————————–<br>&#x2F;&#x2F;When the game starts<br>function startGame() {<br>    setInterval(function() {<br>        techLevel +&#x3D; 1;<br>        time +&#x3D; 10;<br>        document.getElementById(“techLevel”).textContent &#x3D; “Level: “ + techLevel;<br>        document.getElementById(“time”).textContent &#x3D; “Year: “ + time;</p>
+<pre><code>    //display the weapon spaceship according to the technology level of the earth
+    let weaponImage = document.getElementById(&quot;weapon&quot;);
+    if (techLevel &gt;= 1 &amp;&amp; techLevel &lt;= 3) &#123;
+        weaponImage.src = &quot;assets/spaceship_lv1.png&quot;;
+    &#125; else if (techLevel &gt;= 4 &amp;&amp; techLevel &lt;= 8) &#123;
+        weaponImage.src = &quot;assets/spaceship_lv2.png&quot;;
+    &#125; else if (techLevel &gt;= 9 &amp;&amp; techLevel &lt;= 100) &#123;
+        weaponImage.src = &quot;assets/spaceship_lv3.png&quot;;
+    &#125;
+    weaponInGame.src = weapon.src;
+&#125;, 30000);
+    // Increase villain speed every time techLevel increases by 2
+
+    // Function to upgrade technology level
+</code></pre>
+<p>function upgradeTechLevel() {<br>    techLevel++;</p>
+<pre><code>// Increase villain speed every time techLevel increases by 2
+if(techLevel % 2 == 0) &#123;
+    villainSpeed += 0.5;
+&#125;
+</code></pre>
+<p>}</p>
+<p>&#x2F;&#x2F; Call upgradeTechLevel every 30 seconds (10000 milliseconds &#x3D; 10 seconds)<br>setInterval(upgradeTechLevel, 30000);</p>
+<pre><code>setInterval(function() &#123;
+    timer++;
+    //when the time reaches 30:00, the timer will be refreshed
+    if (timer === 30) &#123;
+        timer = 0;
+    &#125;
+    document.getElementById(&quot;timer&quot;).textContent = (timer &lt; 10 ? &quot;0&quot; : &quot;&quot;) + timer + &quot;:00&quot;;
+&#125;, 1000);
+const weaponInGame = document.getElementById(&quot;weaponInGame&quot;);
+const weaponSpeed = 10;
+</code></pre>
+<p>&#x2F;&#x2F;—————————————————————————————————–<br>&#x2F;&#x2F;Keyboard Settings<br>let keys &#x3D; { w: false, a: false, s: false, d: false }; &#x2F;&#x2F;set all key states are false at the very beginning<br>document.addEventListener(‘keydown’, function(event) {<br>    if (event.key in keys) {<br>        keys[event.key] &#x3D; true;<br>}<br>});</p>
+<p>document.addEventListener(‘keyup’, function(event) {<br>    if (event.key in keys) {<br>        keys[event.key] &#x3D; false;<br>}<br>});</p>
+<p>let gameArea &#x3D; document.getElementById(“gameArea”);<br>let gameAreaRect &#x3D; gameArea.getBoundingClientRect();</p>
+<p>&#x2F;&#x2F;To improve the user interaction<br>&#x2F;&#x2F;We need to ensure the spaceship will move when the user press 2 direction keys at the same time<br>setInterval(function() {<br>let rect &#x3D; weaponInGame.getBoundingClientRect();</p>
+<p>if (keys.w &amp;&amp; rect.top &gt; gameAreaRect.top) {<br>weaponInGame.style.top &#x3D; (rect.top - weaponSpeed - gameAreaRect.top) + “px”;<br>}<br>if (keys.s &amp;&amp; rect.bottom &lt; gameAreaRect.bottom) {<br>weaponInGame.style.top &#x3D; (rect.top + weaponSpeed) + “px”;<br>}<br>if (keys.a &amp;&amp; rect.left &gt; gameAreaRect.left) {<br>weaponInGame.style.left &#x3D; (rect.left - weaponSpeed - gameAreaRect.left) + “px”;<br>}<br>if (keys.d &amp;&amp; rect.right &lt; gameAreaRect.right) {<br>weaponInGame.style.left &#x3D; (rect.left + weaponSpeed) + “px”;<br>}<br>}, 80); &#x2F;&#x2F;move speed of the spaecship</p>
+<p>document.addEventListener(‘keydown’, function(event) {<br>    let gameArea &#x3D; document.getElementById(“gameArea”);<br>    let gameAreaRect &#x3D; gameArea.getBoundingClientRect();<br>    let rect &#x3D; weaponInGame.getBoundingClientRect();</p>
+<pre><code>switch (event.key) &#123;
+    case &quot;w&quot;:
+        if (rect.top &gt; gameAreaRect.top) weaponInGame.style.top = (rect.top - weaponSpeed - gameAreaRect.top) + &quot;px&quot;;
+        break;
+    case &quot;s&quot;:
+        if (rect.bottom &lt; gameAreaRect.bottom) weaponInGame.style.top = (rect.top + weaponSpeed) + &quot;px&quot;;
+        break;
+    case &quot;a&quot;:
+        if (rect.left &gt; gameAreaRect.left) weaponInGame.style.left = (rect.left - weaponSpeed - gameAreaRect.left) + &quot;px&quot;;
+        break;
+    case &quot;d&quot;:
+        if (rect.right &lt; gameAreaRect.right) weaponInGame.style.left = (rect.left + weaponSpeed) + &quot;px&quot;;
+        break;
+&#125;
+</code></pre>
+<p>});<br>&#x2F;&#x2F;—————————————————————————————————–</p>
+<p>&#x2F;&#x2F;—————————————————————————————————–<br>&#x2F;&#x2F;the bullet settings of the spaceship</p>
+<pre><code>bulletInterval = setInterval(function() &#123;
+    let bulletNumber;
+    if (techLevel &gt;= 1 &amp;&amp; techLevel &lt;= 3) &#123;
+        bulletNumber = 1;
+    &#125; else if (techLevel &gt;= 4 &amp;&amp; techLevel &lt;= 8) &#123;
+        bulletNumber = 2;
+    &#125; else if (techLevel &gt;= 9 &amp;&amp; techLevel &lt;= 1000000) &#123;
+        bulletNumber = 4;
+    &#125;
+
+    for (let i = 0; i &lt; bulletNumber; i++) &#123;
+        let bullet = document.createElement(&#39;div&#39;);
+        bullet.className = &#39;bullet&#39;;
+        let offset = i * 10 - ((bulletNumber - 1) * 10) / 2; //Arrange the bullets in different trajectories
+        bullet.style.left = (parseInt(weaponInGame.style.left) + weaponInGame.offsetWidth / 2 + offset) + &#39;px&#39;;
+        bullet.style.top = (parseInt(weaponInGame.style.top) - 10) + &#39;px&#39;;
+        document.getElementById(&#39;gameArea&#39;).appendChild(bullet);
+
+        let bulletInterval = setInterval(function() &#123;
+            if (parseInt(bullet.style.top) &gt; 0) &#123;
+                bullet.style.top = (parseInt(bullet.style.top) - 10) + &#39;px&#39;;
+            &#125; else &#123;
+                bullet.remove();
+                clearInterval(bulletInterval);
+            &#125;
+        &#125;, 50);
+    &#125;
+&#125;, 150); // bullets will be fired every 150ms
+
+
+document.addEventListener(&#39;keydown&#39;, function(event) &#123;
+&#125;);
+</code></pre>
+<p>}</p>
+<p>&#x2F;&#x2F;—————————————————————————————————-</p>
+<p>&#x2F;&#x2F;—————————————————————————————————-<br>function checkCollision() {<br>    let villains &#x3D; document.getElementsByClassName(‘villain’);<br>    let bullets &#x3D; document.getElementsByClassName(‘bullet’);</p>
+<pre><code>for (let i = 0; i &lt; villains.length; i++) &#123;
+    let villain = villains[i];
+    let villainRect = villain.getBoundingClientRect();
+</code></pre>
+<p>for (let j &#x3D; 0; j &lt; bullets.length; j++) {<br>    let bullet &#x3D; bullets[j];<br>    let bulletRect &#x3D; bullet.getBoundingClientRect();</p>
+<pre><code>// check if the bullet and villain rectangles overlap
+if (!(villainRect.right &lt; bulletRect.left || 
+    villainRect.left &gt; bulletRect.right || 
+    villainRect.bottom &lt; bulletRect.top || 
+    villainRect.top &gt; bulletRect.bottom)) &#123;
+    
+    // remove the bullet
+    bullet.remove();
+    
+    // increase hit counter and check if villain has been hit 3 times
+    villain.hitCounter = (villain.hitCounter || 0) + 1;
+    if (villain.hitCounter &gt;= 3) &#123;
+        villain.style.backgroundImage = &quot;url(&#39;assets/explode.gif&#39;)&quot;;
+        setTimeout(function() &#123;
+            villain.remove();
+        &#125;, 1000); // remove the villain after 1 second
+        
+        score=score+7; // Increment the score
+        document.getElementById(&#39;score&#39;).textContent = score; // Update the score display
+    &#125;
+
+    break;
+&#125;
+</code></pre>
+<p>}<br>}<br>}</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#README"><span class="nav-number">2.</span> <span class="nav-text">README</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#The-Dark-Forest-Theory"><span class="nav-number">2.1.</span> <span class="nav-text">The Dark Forest Theory</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Game-Instruction"><span class="nav-number">2.2.</span> <span class="nav-text">Game Instruction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#The-number-and-the-speed-of-the-villain-spaceship-will-increase-as-the-technology-level-increases-Try-to-break-your-limitation-and-get-a-higher-score-Pilot"><span class="nav-number">2.2.1.</span> <span class="nav-text">The number and the speed of the villain spaceship will increase as the technology level increases! Try to break your limitation and get a higher score, Pilot.</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Key-Coding"><span class="nav-number">3.</span> <span class="nav-text">Key Coding</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#default-css"><span class="nav-number">3.0.1.</span> <span class="nav-text">default.css</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#index-html"><span class="nav-number">3.0.2.</span> <span class="nav-text">index.html</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#main-js"><span class="nav-number">3.0.3.</span> <span class="nav-text">main.js</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Hal Feng</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
